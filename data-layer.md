@@ -16,7 +16,7 @@ Dane statyczne:
 
 Dynamiczna sekcja:
 
-- <section id="posts"></section>
+- ```<section id="posts"></section>```
 
 Dane są ładowane z plików JSON przez:
 
