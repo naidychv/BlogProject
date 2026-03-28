@@ -1,0 +1,17 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}

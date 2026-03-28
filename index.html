@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="scss/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <h1 class="logo">Moje portfolio</h1>
+          <ul class="nav-list">
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#skills">Umiejetności</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <img src="images/kot.jpg" alt="foto_kot" width="250" height="250" />
+          <h2 class="hero-title">Cześć, nazywam się Vladyslav Naidych</h2>
+          <p class="hero-subtitle">Jestem Software Developer</p>
+          <a href="#contact" class="btn">Skontajtuj się ze mną</a>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">O mnie</h2>
+          <p class="section-text">
+            Programowanie dla mnie to nie tylko praca, ale i prawdziwa pasja.
+            Jestem otwarty na nowe projekty. Jeśli masz pomysł na projekt,
+            skontaktuj się ze mną.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="section-title">Umiejetności</h2>
+          <ul class="skills-list">
+            <li class="skill-item">HTML5</li>
+            <li class="skill-item">CSS3 / SCSS</li>
+            <li class="skill-item">JavaScript</li>
+            <li class="skill-item">React</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="section-title">Projekty</h2>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3 class="project-title">Pierwszy projekt</h3>
+              <p class="project-description">Mój pierwszy projekt to ...</p>
+              <a href="#" class="project-link">Zobacz projekt</a>
+            </article>
+
+            <article class="project-card">
+              <h3 class="project-title">Drugi projekt</h3>
+              <p class="project-description">Mój drugi projekt ...</p>
+              <a href="#" class="project-link">Zobacz projekt</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Kontakt</h2>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Imię</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Wiadomość</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Wyślij wiadomość</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Koszalin</p>
+      </div>
+    </footer>
+  </body>
+</html>

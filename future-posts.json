@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Nadchodzący wpis",
+    "author": { "name": "Anna Nowak" },
+    "date": "2026-04-01",
+    "category": "News",
+    "tags": ["zapowiedź"],
+    "meta": { "readTime": "4 min" },
+    "media": {
+      "images": ["https://placehold.co/500x300"]
+    },
+    "isPublished": false
+  },
+  {
+    "title": null,
+    "author": {},
+    "date": "",
+    "category": "Inne",
+    "tags": null,
+    "meta": null,
+    "media": null,
+    "isPublished": false
+  }
+]

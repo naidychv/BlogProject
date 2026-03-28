@@ -1,0 +1,70 @@
+header {
+  background-color: #d3e3ef;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+header .nav-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  justify-content: center;
+}
+
+footer {
+  background-color: #d3e3ef;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container .skills-list {
+  list-style: none;
+}
+
+.btn {
+  background-color: #ddeaeb;
+}
+
+.hero {
+  background-color: #ddeaeb;
+}
+.hero .container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 16px;
+}
+.wrapper .article {
+  background-color: aliceblue;
+  border-radius: 24px;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .article img {
+  width: 500px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #d5dfe9;
+}/*# sourceMappingURL=main.css.map */

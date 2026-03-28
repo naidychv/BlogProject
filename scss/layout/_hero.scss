@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+.hero {
+  background-color: variables.$bg-primary;
+
+  .container {
+    min-height: 70vh;
+    @include mixins.flex-column-center;
+  }
+}

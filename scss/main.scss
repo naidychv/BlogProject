@@ -1,0 +1,12 @@
+@use "abstracts/variables";
+@use "../scss/layout/header";
+@use "../scss/layout/footer";
+@use "../scss/layout/container";
+@use "../scss/components/buttons";
+@use "../scss/layout/hero";
+@use "../scss/abstracts/mixins";
+@use "../scss/layout/blog";
+
+body {
+  background-color: variables.$bg-main;
+}

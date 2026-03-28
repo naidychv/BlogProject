@@ -1,0 +1,21 @@
+@use "../abstracts/variables";
+
+header {
+  background-color: variables.$bg-header-footer;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    justify-content: center;
+  }
+}

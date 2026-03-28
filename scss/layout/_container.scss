@@ -1,0 +1,10 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+.container {
+  @include mixins.container;
+  text-align: center;
+  .skills-list {
+    list-style: none;
+  }
+}
